@@ -1,0 +1,83 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+.img{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.corps{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 12%;
+
+}
+
+.btn{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0);
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+
+.description{
+    background-color: rgb(112, 110, 110);
+    width: 350px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 10px;
+    opacity: 0;
+}
+
+.btn:hover .description{
+    opacity: 1;
+}
+
+#epaule{
+    margin-top: -450px;
+    margin-left: 3px;
+}
+
+#tete{
+    margin-top: -515px;
+    margin-left: 60px;
+}
+
+#main{
+    margin-top: -280px;
+    margin-left: -2px;
+}
+#zizi{
+    margin-top: -260px;
+    margin-left: 60px;
+}
+#genoux{
+    margin-top: -170px;
+    margin-left: 32px;
+}
+#pied{
+    margin-top: -40px;
+    margin-left: 32px;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
